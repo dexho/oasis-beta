@@ -5,4 +5,5 @@ Winner of the MIT Beat The Pandemic II Hackathon - Surfacing and communicating t
 Powered by AWS
 
 See the Oasis extension in development: http://oasisportal.info/demos/4/
+
 Download the extension: https://chrome.google.com/webstore/detail/oasis-extension/mlplbnhhpbpgjdicgfkocgahnilkjbjb
