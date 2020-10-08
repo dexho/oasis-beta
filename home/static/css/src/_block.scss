@@ -1,0 +1,87 @@
+html {
+  font-family: $font-base;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: $white;
+}
+
+
+.dash-wrapper {
+  width: 100vw;
+  height: 100vh;
+  // padding: $space-md 0 $space-md 0;
+  background: rgb(47, 69, 90);
+  background: linear-gradient(-15deg, rgba(47, 69, 90, 1) 0%, rgba(187, 225, 223, 1) 100%);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  // grid-auto-rows: 200px;
+  grid-template-rows: auto;
+  grid-template-areas:
+        ". a a ."
+        ". a a .";
+}
+
+.image-date-location {
+  grid-area: a;
+  align-self: center;
+  justify-self: center;
+}
+
+.image-wrapper {
+  text-align: center;
+  padding-top: $space-sm;
+
+}
+
+.date-wrapper {
+  text-align: center;
+}
+
+.location {
+  text-align: center;
+  color: $dark-grey;
+}
+
+.info-tab-shape {
+  width: 150px;
+  height: 300px;
+  background-color: $light-grey;
+  border-bottom-left-radius: 150px * 2;
+  border-top-left-radius: 150px * 2;
+
+}
+
+.info-tab-wrapper {
+  position: fixed;
+  right: 0;
+  top: 25%;
+  vertical-align: center;
+}
+
+
+// @media screen and (min-width: 568px){
+//     .location{
+//         margin-left: 0;
+//     }
+
+// }
+
+// .logo{
+//     margin-left: $margin;
+// }
+
+// .down-svg{
+//     text-align:center;
+//     margin:auto;
+// }
+
+// main, footer{
+//     margin: 24px $margin 24px $margin;
+// }
+
+
+
+
+

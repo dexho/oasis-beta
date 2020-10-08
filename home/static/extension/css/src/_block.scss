@@ -1,0 +1,30 @@
+html {
+  font-family: $font-base;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background-color: $white;
+}
+
+.landing-wrapper {
+  width: 100%;
+}
+
+main, footer {
+  margin: 24px $margin 24px $margin;
+}
+
+.info {
+  background-color: $dark-blue;
+  border-radius: 5px;
+  margin-bottom: 4em;
+}
+
+.info-item {
+  padding: 24px;
+}
+
+.buttons {
+  margin-bottom: 8em;
+  margin-top: 4em;
+}

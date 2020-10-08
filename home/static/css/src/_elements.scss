@@ -1,0 +1,69 @@
+h1 {
+  font-family: $font-heading;
+  font-size: $font-size-h1;
+  color: $dark-blue;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: $font-heading;
+  font-size: $font-size-h2;
+  line-height: 48px;
+  color: $black;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: $font-base;
+  font-size: $font-size-h3;
+  line-height: 48px;
+  color: $black;
+  font-weight: 400;
+}
+
+
+p {
+  font-family: $font-base;
+  font-size: $font-size-base;
+  font-weight: 400;
+  line-height: 32px;
+  color: $black;
+}
+
+.info-item {
+  h1 {
+    color: $light-green;
+    letter-spacing: 0.1em;
+  }
+
+  .source {
+    color: $teal;
+  }
+
+  h3 {
+    color: $white;
+  }
+}
+
+.button {
+  padding: 1em;
+  font-family: $font-base;
+  font-size: $font-size-h3;
+  border-radius: 5px;
+  letter-spacing: 0.2em;
+}
+
+.button2 {
+  text-align: right;
+}
+
+.today-text {
+  letter-spacing: 8px;
+  color: $dark-grey;
+}
+
+.information-text {
+  text-align: center;
+  padding-top: 130px;
+  color: $dark-grey;
+}
